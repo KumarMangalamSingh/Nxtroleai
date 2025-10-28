@@ -10,13 +10,13 @@ function Home() {
       <div className='flex flex-wrap items-center justify-center gap-4 mt-6    px-4 pt-14 '>
          <h1 className='text-4xl font-bold text-white'>NxtRole.AI : Career Guidance & Roadmap Generator</h1> 
       </div>  
-     <p className='flex items-center justify-center px-4 pt-3 text-black'>AI-powered platform that helps students and professionals find the right career path,discover job roles, and learn skills to grow.
+     <p className='flex items-center justify-center px-4 pt-3 text-black text-center'>AI-powered platform that helps students and professionals find the right career path,discover job roles, and learn skills to grow.
     </p>
  
- <div className='flex items-center justify-between '>
-  <img src={aiinedu} alt=" img"  className='m-1 w-[35%] cursor-pointer'/>
-  <img src={explore} alt=" img" className='w-[35%]'  />
-  <img src={call} alt="img" className='w-[30%]' />
+ <div className='flex flex-wrap items-center justify-between overflow-hidden px-4 '>
+  <img src={aiinedu} alt=" img"  className='m-1 w-[33%] cursor-pointer'/>
+  <img src={explore} alt=" img" className='w-[33%]'  />
+  <img src={call} alt="img" className='w-[33%]' />
 
  </div>
  <div className='flex items-center justify-center   px-4 pb-5'>
